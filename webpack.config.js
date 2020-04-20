@@ -12,7 +12,9 @@ resolve: {
     extensions: ['.js','.jsx']
 },
 devServer: {
-    historyApiFallback: true
+    historyApiFallback: true,
+    host: '192.168.0.20',
+    port:8080
 },
 module: {
     rules:[{
